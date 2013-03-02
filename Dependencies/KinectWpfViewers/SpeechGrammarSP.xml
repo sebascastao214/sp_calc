@@ -1,0 +1,34 @@
+﻿<grammar version="1.0" xml:lang="es-ES" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>ADELANTE</tag>
+        <one-of>
+          <item> padelante </item>
+          <item> adelante </item>
+          <!--<item> derecho </item>-->
+        </one-of>
+      </item>
+      <item>
+        <tag>ATRAS</tag>
+        <one-of>
+          <item> atras </item>
+          <item> patras </item>
+          <item> hacia atras </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>IZQUIERDA</tag>
+        <one-of>
+          <item> a la izquierda </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DERECHA</tag>
+        <one-of>
+          <item> a la derecha </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
